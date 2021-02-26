@@ -1,3 +1,138 @@
 @import "global";
 @import "vars";
 @import "fonts";
+
+// head start
+.head {
+  color: $blue;
+  background-image: url("../images/head/head-bgr.jpg");
+  min-height: 920px;
+}
+.head__top {
+  background-color: #ecf6fe;
+}
+.head__top-inner {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  height: 45px;
+}
+.head__top-proposal {
+  font-weight: 300;
+}
+a.head__top-proposal-tel {
+  font-weight: 500;
+}
+.head__top-social {
+  display: flex;
+  font-size: 0px;
+  max-width: 110px;
+  width: 100%;
+  justify-content: space-between;
+}
+.head__top-social-link {
+  .facebook-icon,
+  .twitter-icon,
+  .vkontakte,
+  .instagram-icon {
+    fill: $blue;
+  }
+}
+.head__header {
+  min-height: 175px;
+  display: flex;
+  align-items: center;
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+a.head__header-logo {
+  font-size: 24px;
+  font-weight: 600;
+  width: 125px;
+  height: 105px;
+  background-image: url("/images/head/head-logo-bgr.png");
+  background-repeat: no-repeat;
+  padding: 30px 0 0 50px;
+  position: relative;
+  line-height: 23px;
+  span {
+    font-weight: 300;
+    display: block;
+    text-align: right;
+  }
+  &::before {
+    content: url("../images/head/head-logo-icon.png");
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+}
+.head__header-menu-item {
+  display: inline-block;
+}
+.head__header-menu-link {
+  font-size: 16px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  border-radius: 20px;
+    &:hover {
+    text-decoration-line: underline;
+  }
+  &.active {
+    color: #fff;
+    background-color: $blue;
+  }
+  &.accent-btn {
+   padding: 0 16px;
+  }
+}
+
+.head__content-block {
+  max-width: 690px;
+  margin: 125px 0 220px 0;
+}
+.head__content-slogan {
+  font-weight: 300;
+  font-size: 33px;
+  // margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h1.head__content-title {
+  color: $dblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 47px;
+  font-size: 70px;
+  line-height: 1;
+}
+.head__content-text {
+  margin-bottom: 45px;
+  color: $text;
+  line-height: 35px;
+}
+.head__content-button {
+  font-size: 14px;
+  padding: 0 30px;
+  height: 62px;
+  text-transform: uppercase;
+  border-radius: 45px;
+}
+
+// .Ellipse_2 {
+//   border-radius: 50%;
+//   background-color: rgb(255, 255, 255);
+//   box-shadow: 0px 16px 68px 0px rgba(179, 179, 179, 0.15);
+//   position: absolute;
+//  //   width: 213px;
+//   height: 213px;
+//
+// }

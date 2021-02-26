@@ -1,3 +1,10 @@
 $blue:#008aff;
 $dblue:#13287e;
 $text:#474747;
+$accent:#ffe824;
+
+@mixin bgi{
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
