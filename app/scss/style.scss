@@ -203,7 +203,7 @@ h3.services__title {
 // features start
 .features {
   position: relative;
-  padding: 115px 0 200px 0;
+  padding: 115px 0 215px 0;
   &::before,
   &::after {
     content: "";
@@ -299,7 +299,7 @@ h3.services__title {
 }
 .feedback__swiper {
   z-index: 2;
-  padding: 95px 15px 10px 15px;
+  padding: 80px 15px 10px 15px;
   min-height: 600px;
 }
 .feedback__swiper-title {
@@ -350,3 +350,86 @@ h3.services__title {
   }
 }
 // feedback end
+
+// prices start
+.prices {
+  min-height: 1175px;
+  padding: 215px 0 220px 0;
+}
+.prices__title {
+  margin-bottom: 45px;
+ }
+.prices__text {
+   max-width: 770px;
+  line-height: 33px;
+  margin: 0 auto;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.prices__items {
+  display: flex;
+  justify-content: space-between;
+}
+.prices__item {
+  height: 533px;
+  box-shadow: 0px 16px 68px 0px rgba(179, 179, 179, 0.15);
+  width: 330px;
+  border-radius: 13px;
+  background-color: #fff;
+  padding: 25px;
+  text-align: center;
+}
+.prices__item-name {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+.prices__item-value {
+  font-size: 119px;
+  color: $blue;
+  font-weight: 600;
+  position: relative;
+  line-height: 0.95;
+}
+.prices__item-value-currency {
+  font-family: "PT Sans", sans-serif;
+  left: 30px;
+}
+.prices__item-value-currency,
+.prices__item-value-piece {
+  color: $text;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  top: 15px;
+}
+.prices__item-value-piece {
+  right: 25px;
+}
+.prices__item-value-subtitle {
+  margin-bottom: 40px;
+}
+.prices__item-features {
+  margin-bottom: 17px;
+  max-width: 280px;
+  max-height: 165px;
+  overflow:hidden;
+}
+.prices__item-features-element {
+  line-height: 33px;
+  span{
+    color:$blue;
+  }
+}
+.prices__item-btn {
+  height: 67px;
+  width: 219px;
+  border-radius: 33px;
+    margin:0 auto;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+// prices end
+
+
