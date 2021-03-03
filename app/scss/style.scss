@@ -505,7 +505,7 @@ h3.services__title {
 
 // news start
 .news {
-  padding: 205px 0 85px 0;
+  padding: 205px 0 175px 0;
 }
 .news__title {
   margin-bottom: 40px;
@@ -557,8 +557,130 @@ h3.services__title {
   &:hover {
     color: $accent;
   }
-  &:visited{
-    color:$dblue;
+  &:visited {
+    color: $dblue;
   }
 }
 // news end
+
+//footer start
+.footer__top-menu {
+  width: 100%;
+  border-bottom: 1px solid $line;
+}
+.footer__top-menu-list {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 37px;
+}
+.footer__top-menu-link {
+  @extend .head__header-menu-link;
+  color: $blue;
+}
+.footer__contacts {
+  padding: 37px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contacts-column:first-child {
+  margin-right: 125px;
+}
+.footer__contacts-column:last-child {
+  width: 100%;
+  max-width: 370px;
+  // margin-right: 90px;
+}
+.footer__contacts-logo {
+  font-weight: 600;
+  font-size: 42px;
+  padding-left: 96px;
+  position: relative;
+  margin-bottom: 45px;
+  &::before {
+    content: url("../images/footer/footer__logo.png");
+    position: absolute;
+    left: 0;
+  }
+  span {
+    display: block;
+    line-height: 0.6;
+    font-weight: 300;
+  }
+}
+.footer__contacts-btn {
+  padding: 0 23px;
+  font-size: 14px;
+  text-transform: uppercase;
+  height: 67px;
+  border-radius: 33px;
+}
+.footer__contacts-adress-title {
+  font-weight: 600;
+  margin-top: 5px;
+}
+.footer__contacts-adress {
+  font-weight: 300;
+  line-height: 37px;
+}
+.footer__contacts-adress-tel {
+  display: block;
+}
+.footer__contacts-adress-link {
+  @extend .news__item-link;
+  display: block;
+  font-size: 20px;
+}
+.footer__contacts-subscribe-title {
+  @extend .footer__contacts-adress-title;
+  font-size: 14px;
+  margin-bottom: -5px;
+}
+.footer__contacts-subscribe-form {
+  margin: 20px 0;
+  max-width: 370px;
+  border: 1px solid #373737;
+  border-radius: 2px;
+  width: 100%;
+  display: flex;
+  height: 52px;
+  font-size: 16px;
+}
+.footer__contacts-subscribe-email {
+  padding: 0 10px 0 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: none;
+  color: #000;
+  font-weight: 300;
+  &::placeholder {
+    color: $text;
+  }
+}
+.footer__contacts-subscribe-btn {
+  border: none;
+  background-color: #fff;
+  max-width: 120px;
+  width: 100%;
+}
+.footer__contacts-social {
+  display: flex;
+  font-size: 0px;
+  max-width: 205px;
+  justify-content: space-between;
+}
+.facebook-icon,
+.twitter-icon,
+.vkontakte-icon,
+.instagram-icon {
+  height: 23px;
+  width: 23px;
+  fill: $text;
+}
+.footer__copy {
+  font-size: 16px;
+  text-align: center;
+}
+// footer end
