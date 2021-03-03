@@ -191,10 +191,8 @@ h3.services__title {
 }
 .services__feature-btn {
   text-transform: uppercase;
-  font-size: 14px;
   margin: 0 auto;
   padding: 0 25px;
-  border-radius: 33px;
   border: none;
 }
 // services end
@@ -422,11 +420,9 @@ h3.services__title {
 }
 .prices__item-btn {
   width: 219px;
-  border-radius: 33px;
-  margin: 0 auto;
+   margin: 0 auto;
   text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 1.5px;
+    letter-spacing: 1.5px;
 }
 // prices end
 
@@ -492,7 +488,6 @@ h3.services__title {
 }
 .discount__btn {
   padding: 0 14px 0 36px;
-  border-radius: 33px;
   position: relative;
   &::before {
     position: absolute;
@@ -611,11 +606,8 @@ h3.services__title {
 }
 .footer__contacts-btn {
   padding: 0 23px;
-  font-size: 14px;
-  text-transform: uppercase;
-  height: 67px;
-  border-radius: 33px;
-}
+    text-transform: uppercase;
+ }
 .footer__contacts-adress-title {
   font-weight: 600;
   margin-top: 5px;
