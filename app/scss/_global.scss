@@ -42,7 +42,6 @@ body {
 }
 .content {
   flex: 1 0 auto;
- 
 }
 .footer {
   flex: 0 0 auto;
@@ -55,29 +54,28 @@ body {
 }
 .accent-btn {
   color: #474747;
-  width:fit-content;
+  width: fit-content;
   background-color: #ffe824;
   height: 67px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
-h2[class$="title"]{
-  color:#13287e;
+h2[class$="title"] {
+  color: #13287e;
   font-size: 72px;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
-  }
-h3[class$="title"]{
-color:#13287e;
-font-size: 33px;
-text-align: center;
-font-weight: 400;
-text-transform: uppercase;
 }
-p[class$="text"]{
+h3[class$="title"] {
+  @extend h2[class$="title"];
+  font-size: 35px;
+  font-weight: 400;
+}
+
+
+p[class$="text"] {
   line-height: 35px;
   font-weight: 300;
-  // font-size: 20px;
-}
+ }

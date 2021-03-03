@@ -298,7 +298,7 @@ h3.services__title {
 }
 .feedback__swiper {
   z-index: 2;
-  padding: 80px 15px 10px 15px;
+  padding: 72px 15px 10px 15px;
   min-height: 600px;
 }
 .feedback__swiper-title {
@@ -353,7 +353,7 @@ h3.services__title {
 // prices start
 .prices {
   min-height: 1155px;
-  padding: 210px 0 205px 0;
+  padding: 207px 0 200px 0;
 }
 .prices__title {
   margin-bottom: 45px;
@@ -381,7 +381,7 @@ h3.services__title {
 }
 .prices__item-name {
   font-size: 26px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 .prices__item-value {
   font-size: 119px;
@@ -409,7 +409,7 @@ h3.services__title {
   margin-bottom: 40px;
 }
 .prices__item-features {
-  margin-bottom: 17px;
+  margin-bottom: 22px;
   max-width: 280px;
   max-height: 165px;
   overflow: hidden;
@@ -435,7 +435,7 @@ h3.services__title {
   position: relative;
   max-width: 1920px;
   min-height: 620px;
-  
+
   &::before {
     content: url("../images/discount/discount-label.png");
     position: absolute;
@@ -444,7 +444,7 @@ h3.services__title {
     left: 0;
     right: 0;
     width: 120px;
-    margin:0 auto;
+    margin: 0 auto;
   }
 }
 #canvas-wrapper.discount__wrap {
@@ -482,7 +482,7 @@ h3.services__title {
   align-items: center;
   max-height: 600px;
   height: 100%;
-  margin:0 auto;
+  margin: 0 auto;
 }
 .discount__text {
   margin-top: -10px;
@@ -502,3 +502,63 @@ h3.services__title {
   }
 }
 // discount end
+
+// news start
+.news {
+  padding: 205px 0 85px 0;
+}
+.news__title {
+  margin-bottom: 40px;
+}
+.news__subtitle-text {
+  max-width: 700px;
+  margin: 0 auto;
+  max-height: 100px;
+  text-align: center;
+  margin-bottom: 47px;
+}
+.news__items {
+  display: flex;
+  justify-content: space-between;
+}
+.news__item {
+  max-width: 375px;
+  width: 100%;
+}
+.news__item-img {
+  display: block;
+  margin-bottom: 55px;
+}
+.news__item-title {
+  text-transform: capitalize;
+  margin-bottom: 22px;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: left;
+  color: #13287e;
+  height: 60px;
+  overflow: hidden;
+}
+
+.news__item-text {
+  max-height: 85px;
+  max-width: 360px;
+  width: 100%;
+  overflow-y: hidden;
+  margin-bottom: 15px;
+}
+.news__item-link {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 35px;
+  color: $blue;
+  text-decoration: underline;
+  text-transform: uppercase;
+  &:hover {
+    color: $accent;
+  }
+  &:visited{
+    color:$dblue;
+  }
+}
+// news end
