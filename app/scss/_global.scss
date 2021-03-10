@@ -15,7 +15,7 @@ a {
 html,
 body {
   position: relative;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   min-width: 320px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 20px;
@@ -52,6 +52,11 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
+div[class$="__wrap"]{
+  max-width: 1920px;
+  width: 100%;
+  margin:0 auto;
+}
 .accent-btn {
   color: #474747;
   width: fit-content;
@@ -63,17 +68,19 @@ body {
   border-radius: 33px;
     font-size: 14px;
 }
-h2[class$="title"] {
+h2[class*="__title"] {
   color: #13287e;
   font-size: 72px;
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
+  animation-duration:1.5s;
 }
-h3[class$="title"] {
-  @extend h2[class$="title"];
+h3[class*="title"] {
+  @extend h2[class*="__title"];
   font-size: 35px;
   font-weight: 400;
+  animation-duration:2s;
 }
 
 
